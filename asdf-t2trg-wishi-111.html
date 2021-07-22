@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IETF Hackathon - [Project Name] </title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+      div.left-column  { width: 49%; float: left; }
+      div.right-column { width: 49%; float: right; }
+
+      div.right-column ~ p { clear: both; }
+      div.right-column ~ ul { clear: both; }
+      div.my-footer {
+        border-top: 1px solid #ccc;
+        font-size: 10pt;
+        text-align: center;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        height: 30px;
+        width: 100%;
+      }
+
+      div.my-footer p {
+        margin-top: 10px;
+        height: 30px;
+      }
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle
+
+# IETF Hackathon
+# ASDF/T2TRG/WISHI
+
+IETF 111
+
+July 19-23, 2021
+
+Online
+
+
+---
+
+# SDF Hackathon Plan
+
+`draft-ietf-asdf-sdf` defines SDF, the Semantic Definition Format for
+describing **IoT devices**, their **data models**, and their **interaction affordances**
+* Designed as a common modeling format
+* to use between ecosystem-specific formats (YANG, WoT, DTDL, IPSO, ...)
+
+Objective:
+* Bring together the various ongoing SDF converter projects
+* Address loose ends in ingesting/processing SDF
+* Come up with some CI modules that OneDM can use in their model adoption process
+
+Issues:
+* Too many programming languages/platforms
+* Everybody is on vacation this week
+
+<div class="my-footer"><p>IETF Hackathon — asdf-t2trg-wishi </p></div>
+---
+
+# SDF: What got done
+
+* Improved shared understanding of how to process SDF
+* Improvements in the individual converters and processes
+* Rough prototypes of the CI modules that exploit this
+
+* Support roundtripping as a test strategy
+
+* Record details learned, to reflect back to specification
+
+<div class="my-footer"><p>IETF Hackathon — asdf-t2trg-wishi </p></div>
+---
+
+# What we learned
+
+<Lessons learned from this hackathon>
+        - <Issues with existing drafts/RFCs>
+        - <New implementation guidance?>
+        - <New feedback to take to WG?>
+        - <New work to take to WG?>
+
+<div class="my-footer"><p>IETF Hackathon — asdf-t2trg-wishi </p></div>
+---
+ # Wrap up
+  ---
+
+
+.left-column[
+#### Old-timer Team members:
+
+- Carsten Bormann
+- Michael Koster
+
+##### First-timers @ IETF/Hackathon:
+
+- Cornelius Schulz-Trieglaff
+- Jan Romann
+
+]
+.right-column[
+#### Other links:
+
+- https://www.sdf-wot-converter.org
+- http://www.sdf-yang-converter.org
+
+#### Notes and contacts:
+
+- (See links on T2TRG mailing list)
+
+]
+
+<div class="my-footer"><p>IETF Hackathon — asdf-t2trg-wishi </p></div>
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
