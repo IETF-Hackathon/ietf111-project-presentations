@@ -25,7 +25,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     name: Generate PDF
     steps:
-      - name: Create "/slides" directory
+      - name: Create "/presentation-pdfs" directory
         run: mkdir presentation-pdfs && sudo chmod 777 presentation-pdfs
         
       - name: Get List of files
@@ -45,5 +45,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./presentation-pdfs
-          publish_branch: gh-pages
+          publish_branch: main
           keep_files: true
