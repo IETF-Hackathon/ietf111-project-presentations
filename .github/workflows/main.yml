@@ -26,7 +26,7 @@ jobs:
     name: Generate PDF
     steps:
       - name: Create "/slides" directory
-        run: mkdir presentation-pdfs && sudo chmod 777 presentaion-pdfs
+        run: mkdir presentation-pdfs && sudo chmod 777 presentation-pdfs
         
       - name: Get List of files
         run: 
